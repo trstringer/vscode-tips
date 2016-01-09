@@ -4,15 +4,15 @@
 
 ## Index
 
- - [Download and Installation](.\install.md)
- - [Configuration/Customizing (settings, config, themes, keyboard shortcuts)](.\config.md)
- - [Command Palette](.\command-palette.md)
+ - [Download and Installation](install.md)
+ - [Configuration/Customizing (settings, config, themes, keyboard shortcuts)](config.md)
+ - [Command Palette](command-palette.md)
  - Debugging
  - Version Control
  - Productivity (IntelliSence, tasks, linting, testing)
  - Extensions
  - Other Languages (Go, PowerShell, markdown)
- - [OSS Contributions and Insider's Channel](.\vscode-contrib.md)
+ - [OSS Contributions and Insider's Channel](vscode-contrib.md)
  
 ## Contributions
 
