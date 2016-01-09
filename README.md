@@ -7,7 +7,7 @@
  - [Download and Installation](install.md)
  - [Configuration/Customizing (settings, config, themes, keyboard shortcuts)](config.md)
  - [Command Palette](command-palette.md)
- - Debugging
+ - [Debugging](debugging.md)
  - Version Control
  - Productivity (IntelliSence, tasks, linting, testing)
  - Extensions
