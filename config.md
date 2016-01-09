@@ -2,12 +2,14 @@
 
 #### In this section
 - [Settings](#settings)
+- [Themes](#themes)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
 
 ## Settings
 
 Settings have two different scopes: **user** and **workspace**.  User settings apply to the user, and workspace applies to the currently open workspace/folder.
 
-Settings are applied in the following scope (latter overriding former)
+Settings are applied in the following scope (granular overriding broader)
 
 **Default Settings** > **User Settings** > **Workspace Settings**  
 
@@ -47,3 +49,29 @@ Open the workspace settings by doing one of the following:
 
 - Command Pallete - `>Preferences: Open Workspace Settings`
 - Menu - *File -> Preferences -> Workspace Settings*
+
+## Themes
+
+### Change the Theme
+
+To change the color theme of the IDE, use the following command palette command to open up available themes:
+
+`>Preferences: Color Theme`
+
+### Get/Download/Install New Themes
+
+Either search through themes from the command palette by starting typing and viewing available extensions with "theme" in them:
+
+`ext install theme`
+
+The easier way to browse themes to install is through the [Themes section in the Visual Studio Marketplace](https://marketplace.visualstudio.com/vscode/Themes)
+
+## Keyboard Shortcuts
+
+#### Open up the shortcuts configuration
+
+`>Preferences: Open Keyboard Shortcuts`
+
+> :bulb: To overwrite *Default Keyboard Shortcuts* or to add keyboard shortcuts, add the configuration in the `keybindings.json` file opened up in the editor
+
+> :bulb: Scroll to the bottom of the *Default Keyboard Shortcuts* to get a listing of "other actions" that can be bound to keyboard actions
