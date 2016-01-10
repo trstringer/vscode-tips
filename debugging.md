@@ -8,7 +8,7 @@ The `launch.json` is the configuration that Visual Studio Code uses to determine
 {
 	"version": "0.2.0",
 	"configurations": [
-		{ ... },
+    { ... },
     { ... }
 	]
 }
