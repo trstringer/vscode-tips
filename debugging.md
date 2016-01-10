@@ -6,11 +6,11 @@ The `launch.json` is the configuration that Visual Studio Code uses to determine
 
 ```json
 {
-	"version": "0.2.0",
-	"configurations": [
+  "version": "0.2.0",
+  "configurations": [
     { ... },
     { ... }
-	]
+  ]
 }
 ```
 
