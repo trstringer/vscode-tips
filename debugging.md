@@ -27,10 +27,25 @@ The `launch.json` is the configuration that Visual Studio Code uses to determine
 - **stopOnEntry**: if set to *true*, break on entry of the application. If set to *false* then run until explicit breakpoint or end of application
 - **args**: command line arguments passed in
 - **cwd**: location of the workspace that will be launched/debugged (defaults to `.`)
-- **runtimeExecutable** - if specified, this will be the runtime executable (if not, it'll use the `PATH` env var)
-- **env** - array of environment variables
-- **externalConsole** - *true* to launch in separate console window, otherwise *false* to run in VS Code
-- **sourceMaps** - if *true* use source maps if they exist, if *false* then do not
-- **outDir** - specify where the generated source map code exists if not in the same directory as the original source
-- **preLaunchTask** - *(must have tasks setup)* the task to run prior to launch the application
-- **port** - *(when working with `request: attach`)* the port to attach to
+- **runtimeExecutable**: if specified, this will be the runtime executable (if not, it'll use the `PATH` env var)
+- **env**: array of environment variables
+- **externalConsole**: *true* to launch in separate console window, otherwise *false* to run in VS Code
+- **sourceMaps**: if *true* use source maps if they exist, if *false* then do not
+- **outDir**: specify where the generated source map code exists if not in the same directory as the original source
+- **preLaunchTask**: *(must have tasks setup)* the task to run prior to launch the application
+- **port**: *(when working with `request: attach`)* the port to attach to
+
+## Debug experience
+
+*Visual Studio Code provides a well-known and accepted debugging experience with breakpoints, variables, call stack, and console*
+
+#### Switch to debug workbench
+
+The keyboard shortcut to switch the IDE to the debug workbench is `CTRL+SHIFT+D` (configurable in `keybindings.json`)
+
+#### Breakpoints
+
+- **Toggle Breakpoint** - `F9` (configurable in `keybindings.json`)
+- **Disable Breakpoint** - in the debug workbench, uncheck the desired breakpoint to disable
+- **Enable Breakpoint** - in the debug workbench, check the desired breakpoint to enable
+- **Remove Breakpoint** - in the debug workbench, hit the `X` next to the breakpoint to remove it
