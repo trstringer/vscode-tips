@@ -17,3 +17,20 @@ The `launch.json` is the configuration that Visual Studio Code uses to determine
 `version` is the version of the configuration file.  `configurations` is what contains the array of different launch configurations.
 
 > :bulb: You can have multiple configurations for different running and debugging scenarios within a single workspace
+
+### Common configuration settings
+
+- **name**: the name of the launch configuration (referenced when selecting which to use when running/debugging)
+- **type**: *node*, *mono*, *extensionHost*, *go* (specifies the config environment)
+- **request**: *launch*, *attach*
+- **program**: the starting point source file (i.e. *app.js*) for launching
+- **stopOnEntry**: if set to *true*, break on entry of the application. If set to *false* then run until explicit breakpoint or end of application
+- **args**: command line arguments passed in
+- **cwd**: location of the workspace that will be launched/debugged (defaults to `.`)
+- **runtimeExecutable** - if specified, this will be the runtime executable (if not, it'll use the `PATH` env var)
+- **env** - array of environment variables
+- **externalConsole** - *true* to launch in separate console window, otherwise *false* to run in VS Code
+- **sourceMaps** - if *true* use source maps if they exist, if *false* then do not
+- **outDir** - specify where the generated source map code exists if not in the same directory as the original source
+- **preLaunchTask** - *(must have tasks setup)* the task to run prior to launch the application
+- **port** - *(when working with `request: attach`)* the port to attach to
