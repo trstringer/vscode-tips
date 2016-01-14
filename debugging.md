@@ -45,15 +45,15 @@ The keyboard shortcut to switch the IDE to the debug workbench is `CTRL+SHIFT+D`
 
 #### Breakpoints
 
-- **Toggle Breakpoint** - `F9` (configurable in `keybindings.json`)
-- **Disable Breakpoint** - in the debug workbench, uncheck the desired breakpoint to disable
-- **Enable Breakpoint** - in the debug workbench, check the desired breakpoint to enable
-- **Remove Breakpoint** - in the debug workbench, hit the `X` next to the breakpoint to remove it
+- **Toggle Breakpoint**: `F9` (configurable in `keybindings.json`)
+- **Disable Breakpoint**: in the debug workbench, uncheck the desired breakpoint to disable
+- **Enable Breakpoint**: in the debug workbench, check the desired breakpoint to enable
+- **Remove Breakpoint**: in the debug workbench, hit the `X` next to the breakpoint to remove it
 
 #### Debug console
 
 The debug console is a common way to interact with the current state of the application during typical debugging scenarios.
 
-Open the console: `>Debug: Open Console`
+> :bulb: Open the console by using the command palette: `>Debug: Open Console`
 
 The debug console is also capable of evaluating expressing, dumping variables, and other common rich debugging console features.
