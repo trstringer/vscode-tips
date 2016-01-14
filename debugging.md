@@ -55,3 +55,5 @@ The keyboard shortcut to switch the IDE to the debug workbench is `CTRL+SHIFT+D`
 The debug console is a common way to interact with the current state of the application during typical debugging scenarios.
 
 Open the console: `>Debug: Open Console`
+
+The debug console is also capable of evaluating expressing, dumping variables, and other common rich debugging console features.
