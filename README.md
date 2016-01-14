@@ -8,7 +8,7 @@
  - [Configuration/Customizing (settings, config, themes, keyboard shortcuts)](config.md)
  - [Command Palette](command-palette.md)
  - [Debugging](debugging.md)
- - Version Control
+ - [Version Control (git)](git.md)
  - Productivity (IntelliSence, tasks, linting, testing)
  - Extensions
  - Other Languages (Go, PowerShell, markdown)
