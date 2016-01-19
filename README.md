@@ -9,7 +9,7 @@
  - [Command Palette](command-palette.md)
  - [Debugging](debugging.md)
  - [Version Control (git)](git.md)
- - [Productivity (IntelliSence, tasks, linting, testing)](productivity.md)
+ - [Productivity (IntelliSense, tasks, linting, testing)](productivity.md)
  - Extensions
  - Other Languages (Go, PowerShell, markdown)
  - [OSS Contributions and Insider's Channel](vscode-contrib.md)
