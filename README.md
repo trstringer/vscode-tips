@@ -1,4 +1,4 @@
-# Visual Studio Code Tips and Tricks
+# Visual Studio Code Tips and Quick Reference
 
 *The purpose of this repository is to provide and maintain a quick reference for VS Code tips*
 
