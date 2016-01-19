@@ -1,7 +1,7 @@
 # Productivity
 
 #### In this section
-- [IntelliSense (JavaScript)](#intelliSense-for-javascript)
+- [IntelliSense (JavaScript)](#intellisense-for-javascript)
 
 ## IntelliSense for JavaScript
 
