@@ -3,6 +3,7 @@
 #### In this section
 - [IntelliSense (JavaScript)](#intellisense-for-javascript)
 - [Tasks](#tasks)
+- [Linting](#linting)
 
 ## IntelliSense for JavaScript
 
@@ -81,3 +82,30 @@ Do one of the following to **define your test task**...
 1. Create a `watch` task in your `gulpfile.js`
 2. Have the watch task run `gulp.watch()` and specify an array of tasks that should be run on save
 3. *(optional)* Turn on auto-save in VS Code: `>Files:Enable Auto Save` (only do this if you want VS Code to auto save)
+
+## Linting
+
+> :bulb: In this example I'm going to highlight how to setup and use ESLint as the JavaScript linter
+
+### Enable External Linter (ESLint or JSLint)
+
+1. Ensure that you have run `npm init` on the current workspace
+2. Install the linter: `npm install eslint`
+3. Install the VS Code extention (command palette): `ext install eslint`
+4. Restart VS Code when prompted
+5. Define your `.eslintrc.*` file (i.e. `.eslintrc.json`)
+6. Configure your linter appropriately
+7. *(optional)* Disable VS Code's default JS validation in **user settings** and specify `"javascript.validate.enable": false`
+
+#### Sample `.eslintrc.json`
+
+```json
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "extends": "eslint:recommended"
+}
+```
