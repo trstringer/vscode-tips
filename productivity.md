@@ -4,6 +4,7 @@
 - [IntelliSense (JavaScript)](#intellisense-for-javascript)
 - [Tasks](#tasks)
 - [Linting](#linting)
+- [Testing](#testing)
 
 ## IntelliSense for JavaScript
 
@@ -108,4 +109,23 @@ Do one of the following to **define your test task**...
     },
     "extends": "eslint:recommended"
 }
+```
+
+## Testing
+
+> :bulb: This tip shows how to setup a testing task using gulp and mocha
+
+1. Install mocha: `npm install --global mocha`
+2. Create your mocha tests in `.\test\*.js` (i.e. `test.js`)
+3. Create your `test` task in your `gulpfile.js` *(sample test task below)*
+4. Run your `test` task by either the shortcut keys (recommended) `CTRL+SHIFT+T` or command palette `task test`
+
+```javascript
+gulp.task('test', function (callback) {
+  exec('mocha', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    callback(err);
+  });
+});
 ```
