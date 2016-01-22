@@ -10,7 +10,7 @@
  - [Debugging](debugging.md)
  - [Version Control (git)](git.md)
  - [Productivity (IntelliSense, tasks, linting, testing)](productivity.md)
- - Extensions
+ - [Extensions](extensions.md)
  - Other Languages (Go, PowerShell, markdown)
  - [OSS Contributions and Insider's Channel](vscode-contrib.md)
  
