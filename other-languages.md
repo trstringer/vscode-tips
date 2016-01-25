@@ -8,7 +8,7 @@
 
 #### Installing
 
-*Command palette*: `ext install powershell`
+*(Command palette)* `ext install powershell`
 
 #### Usage
 
