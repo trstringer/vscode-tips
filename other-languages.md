@@ -2,7 +2,7 @@
 
 #### In this section
 - [PowerShell](#powershell)
-- Go
+- [Go](#go)
 - [Markdown](#markdown)
 
 ## PowerShell
@@ -26,3 +26,10 @@
 1. Create or open a markdown file `*.md`
 2. Open the markdown preview with the command palette: `>Markdown: Open Preview to the Side`
 3. *(Recommended)* Default keyboard shortcut: `CTRL+K V`
+
+## Go
+
+1. [Install Go](http://golang.org)
+2. Install the Go extension with the command palette: `ext install Go`
+3. Create a new workspace (or open an existing Go workspace)
+4. *(command prompt)* Run your Go source: `go run your-file.go` 
