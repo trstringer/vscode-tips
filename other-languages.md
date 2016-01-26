@@ -29,7 +29,8 @@
 
 ## Go
 
-1. [Install Go](http://golang.org)
-2. Install the Go extension with the command palette: `ext install Go`
-3. Create a new workspace (or open an existing Go workspace)
-4. *(command prompt)* Run your Go source: `go run your-file.go` 
+1. [Download and install Go](http://golang.org)
+2. Set your `GOPATH` environment variable appropriately (i.e. *powershell* `[Environment]::SetEnvironmentVariable("GOPATH", "C:\Go\pkg", "User")`)
+3. Install the Go extension with the command palette: `ext install Go`
+4. Create a new workspace (or open an existing Go workspace)
+5. *(command prompt)* Run your Go source: `go run your-file.go` 
