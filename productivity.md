@@ -92,7 +92,7 @@ Do one of the following to **define your test task**...
 
 1. Ensure that you have run `npm init` on the current workspace
 2. Install the linter: `npm install eslint`
-3. Install the VS Code extention (command palette): `ext install eslint`
+3. Install the VS Code extension (command palette): `ext install eslint`
 4. Restart VS Code when prompted
 5. Define your `.eslintrc.*` file (i.e. `.eslintrc.json`)
 6. Configure your linter appropriately
