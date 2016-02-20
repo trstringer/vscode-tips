@@ -5,6 +5,11 @@
 1. Switch to the Git workbench view (`CTRL+SHIFT+G`)
 2. Select *initialize repository*
 
+> :bulb: On Mac OS X you may need to add your own key binding for `CMD+SHIFT+G`:
+```
+{"key": "cmd+shift+g", "command": "workbench.view.git"}
+```
+
 ## Commit changes
 
 1. Switch to the Git workbench

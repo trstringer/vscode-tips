@@ -92,7 +92,7 @@ Do one of the following to **define your test task**...
 
 1. Ensure that you have run `npm init` on the current workspace
 2. Install the linter: `npm install eslint`
-3. Install the VS Code extention (command palette): `ext install eslint`
+3. Install the VS Code extension (command palette): `ext install eslint`
 4. Restart VS Code when prompted
 5. Define your `.eslintrc.*` file (i.e. `.eslintrc.json`)
 6. Configure your linter appropriately
@@ -115,14 +115,14 @@ Do one of the following to **define your test task**...
 
 > :bulb: This tip shows how to setup a testing task using gulp and mocha
 
-1. Install mocha: `npm install --global mocha`
+1. Install mocha: `npm install --save-dev mocha`
 2. Create your mocha tests in `.\test\*.js` (i.e. `test.js`)
 3. Create your `test` task in your `gulpfile.js` *(sample test task below)*
 4. Run your `test` task by either the shortcut keys (recommended) `CTRL+SHIFT+T` or command palette `task test`
 
 ```javascript
 gulp.task('test', function (callback) {
-  exec('mocha', function (err, stdout, stderr) {
+  exec('./node_modules/mocha/bin/mocha ./test', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     callback(err);
