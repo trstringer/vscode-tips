@@ -16,8 +16,16 @@
 2. Navigate to the workspace's root directory
 3. *(optional)* Search for the tsd file you want: (i.e.) `tsd query node`
 4. Install the tsd file: (i.e.) `tsd install node`
+5. Add a `jsonconfig.json` file in the root directory with the following contents...
+```json
+{
+  "compilerOptions": {
+    "module": "commonjs"
+  }
+}
+```
 
-> :bulb: This will create (if not already existing) a folder in the workspace root named `typings` and each `*.d.ts` file will be placed in its owning folder (i.e. `.\typings\node\node.d.ts`)
+> :bulb: Running `tsd install` will create (if not already existing) a folder in the workspace root named `typings` and each `*.d.ts` file will be placed in its owning folder (i.e. `.\typings\node\node.d.ts`)
 
 > :bulb: You can also search for type definition files on [DefinitelyTyped's website](http://definitelytyped.org/tsd/)
 
