@@ -1,3 +1,18 @@
+# 1.0.0
+
+- jsconfig.json creation guide
+- React Native IntelliSense with ES6 import
+- Robust JavaScript/TypeScript formatting options added (brace placement, spaces, etc.)
+- Translated into 9 languages
+- Configurable language associations
+- Column selection
+- Source code folding shortcuts
+- Status bar extensions update notification
+- Support for Run (in addition to Debug)
+- Selectable task runner templates to choose from
+- Linux .deb and .rpm package offerings
+- Linux CLI up to other platform capabilities
+
 # 0.10.10
 
 - Salsa JavaScript is now the default
