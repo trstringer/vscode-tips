@@ -1,3 +1,13 @@
+# 1.1.0
+
+- Configuration option to disable auto reveal of files in Explorer view
+- Ability to reopen the last closed file (default `CTRL + SHIFT + T`)
+- Support for deep call stacks in debugging
+- Support for ES6 Sets, Maps, and Generators
+- Debugging support for property getters
+- String truncation in debugging moved from 80 char to 10,000 chars
+- Configurable shell launch (for things like *Open in [ Command Prompt | Terminal ]*)
+
 # 1.0.0
 
 - jsconfig.json creation guide
