@@ -1,3 +1,10 @@
+# 1.2.0
+
+- Auto-trim whitespace
+- Select all find matches
+- Integrated teriminal (configurable)
+- Debug console opening control
+
 # 1.1.0
 
 - Configuration option to disable auto reveal of files in Explorer view
