@@ -5,7 +5,7 @@
 ## Index
 
  - [Download and Installation](install.md)
- - [Releases Summaries](release-summaries.md)
+ - :heart: [Releases Summaries](release-summaries.md)
  - [Configuration/Customizing (settings, config, themes, keyboard shortcuts)](config.md)
  - [Command Palette](command-palette.md)
  - [Debugging](debugging.md)
