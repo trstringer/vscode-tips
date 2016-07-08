@@ -1,3 +1,17 @@
+# 1.3.0
+
+- Editor tabs
+- Open Editors view replaces Working Files
+- New extensions view
+- Problems panel output shows errors and warnings
+- Drag and Drop to move editor side-by-side
+- Use multiple integrated terminals at a time
+- Global search and replace
+- Debugging step back functionality
+- Attach to Node.js process that isn't in debug mode
+- Pick process capability for attaching to Node.js process
+- Monaco editor is now on npm
+
 # 1.2.0
 
 - Auto-trim whitespace
