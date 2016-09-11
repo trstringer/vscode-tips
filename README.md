@@ -1,5 +1,7 @@
 # Visual Studio Code Tips and Quick Reference
 
+:exclamation: :exclamation: :exclamation: **This repo is no longer maintained.  For great information on VS Code, and all facets of it, please reference [awesome-vscode](https://github.com/viatsko/awesome-vscode)**
+
 *The purpose of this repository is to provide and maintain a quick reference for VS Code tips*
 
 ## Index
